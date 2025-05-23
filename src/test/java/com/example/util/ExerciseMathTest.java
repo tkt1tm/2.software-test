@@ -7,6 +7,11 @@ import static org.junit.jupiter.api.Assertions.fail;
 
 public class ExerciseMathTest {
     @Test
+    void _テストに失敗させる() {
+        fail("失敗しました");
+    }
+
+    @Test
     void _1を渡すと1が返る() {
         // 準備
         ExerciseMath exerciseMath = new ExerciseMath();
